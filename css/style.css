@@ -1,0 +1,146 @@
+section.row div.content {
+	max-width: 848px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.testimonials {
+	background: #15294a;
+	padding-top: 54px;
+	padding-bottom: 50px;
+	color: #ffffff;
+}
+
+
+section.testimonials .content .group:nth-child(odd){
+	padding-right: 15px;
+}
+
+section.testimonials .content .group:nth-child(even){
+	padding-left: 15px;
+}
+
+/*media*/
+
+section.testimonials .media .media-left {
+	padding-right: 20px;
+}
+
+section.testimonials .media .media-left img {
+	margin-top: 2px;
+}
+
+section.testimonials .media .media-heading {
+	margin-bottom: 15px;
+	font-family: 'Merriweather', serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+section.testimonials .media .media-body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #f5f6f8;
+}
+
+@media (max-width: 768px) {
+
+	section.testimonials .media .media-left,
+	section.testimonials .media .media-body {
+		display: block;
+	}
+
+	section.testimonials .media .media-body {
+		width: 100%;
+		text-align: center;
+	}
+
+	section.testimonials .media .media-left img {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 15px;
+	}
+
+	section.testimonials .content .group + .group {
+		margin-top: 20px;
+	}
+}
+
+
+@media (min-width: 992px) {
+
+	section.testimonials .content .group:nth-child(odd){
+		padding-right: 30px;
+	}
+
+	section.testimonials .content .group:nth-child(even){
+		padding-left: 30px;
+	}
+}
+
+section.articles {
+	padding-top: 50px;
+}
+
+section.articles .content > div {
+	margin-bottom: 63px;
+}
+
+article .author {
+	color: #1e65b6;
+	font-weight: 700;
+}
+
+article .media .media-left {
+	padding-right: 0;
+	border-right: 1px solid #000000;
+}
+
+article .media .info {
+	width: 114px;
+	display: block;
+	padding-right: 25px;
+	font-size: 10px;
+	line-height: 1.6em;
+}
+
+article .media .media-body .float-container {
+	overflow: hidden;
+}
+
+article .media .media-body {
+	color: #000000;
+	padding-left: 25px;
+	font-family: 'Lato', sans-serif;
+}
+
+article .media .media-heading {
+	margin-bottom: 15px;
+	font-family: 'Merriweather', serif;
+	font-size: 21px;
+	font-weight: 700;
+}
+
+article .media .media-body p {
+	font-size: 18px;
+}
+
+article .media button,
+article .media button:hover,
+article .media button:focus {
+	background-color: #1e65b6;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 8px 22px;
+	margin-top: 8px;
+}
+
+@media (max-width: 767px){
+
+	button {
+		display: block;
+		width: 100%;
+	}
+}
